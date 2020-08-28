@@ -1,0 +1,55 @@
+p {
+    color: aqua;
+    text-align: center;
+}
+
+
+/* id选择器使用#号，class选择器使用. */
+
+#table1 {
+    color: blue;
+    background-color: aquamarine;
+}
+
+.div1 {
+    color: aqua;
+    background-size: 10px;
+    background-color: yellow;
+}
+
+.div2 {
+    color: aqua;
+    background-size: 10px;
+    background-color: pink;
+}
+
+.images1 {
+    /*     background-image: url('images/夏目.png');
+ */
+    background-attachment: fixed;
+}
+
+.tr1 {
+    background-color: black;
+    color: #ffffff;
+    text-align: left;
+    vertical-align: top;
+}
+
+.tr2 {
+    min-width: 24px;
+    vertical-align: top;
+    border: 1px solid #d4d4d4;
+}
+
+.tr3 {
+    min-width: 24px;
+    vertical-align: top;
+    border: 1px solid #d4d4d4;
+    background-color: #3f8178;
+}
+
+
+/* td {
+    background-color: black;
+} */
