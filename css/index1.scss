@@ -1,0 +1,31 @@
+body {
+    overflow: hidden;
+    height: 100vh;
+}
+
+.fullscreen-layout {
+    //position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    header {
+        //top: 0;
+        height: 50px;
+        background-color: #f66;
+    }
+    footer {
+        //bottom: 0;
+        height: 50px;
+        background-color: #66f;
+    }
+    main {
+        //top: 50px;
+        flex: 1;
+        background-color: #3c9;
+        div {
+            overflow: hidden;
+            height: 100%;
+        }
+    }
+}

@@ -1,0 +1,39 @@
+body {
+  overflow: hidden;
+  height: 100vh;
+}
+
+.fullscreen-layout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 400px;
+  height: 400px;
+}
+
+.fullscreen-layout header {
+  height: 50px;
+  background-color: #f66;
+}
+
+.fullscreen-layout footer {
+  height: 50px;
+  background-color: #66f;
+}
+
+.fullscreen-layout main {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #3c9;
+}
+
+.fullscreen-layout main div {
+  overflow: hidden;
+  height: 100%;
+}
+/*# sourceMappingURL=index1.css.map */
